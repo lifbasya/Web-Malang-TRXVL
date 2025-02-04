@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 9 - Website MALANG TRXVL</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <nav class="flex justify-between p-5 items-center fixed w-full">
+      <img src="./assets/main/logo.svg" alt="logo">
+      <ul class="text-white flex gap-5">
+        <li><a href="">Home</a></li>
+        <li><a href="">Stays</a></li>
+        <li><a href="">flights</a></li>
+        <li><a href="">Packages</a></li>
+        <li><a href="">Sign Up</a></li>
+      </ul>
+    </nav>
+    <main>
+        <section class="bg-[url(./assets/hero/bg-hero.jpg)] h-screen flex flex-col justify-center items-center gap-12  p-5">
+            <h1 class="text-7xl text-white font-bold max-w-7xl w-full">Book trip provider <br>in Malang.</h1>
+            <div class="search-box flex px-3 py-2 bg-red-500 w-full bg-white/20 backdrop-blur-lg max-w-7xl rounded-2xl">
+                <label for="" class="flex w-full gap-2">
+                    <img src="./assets/hero/ic-search.svg" alt="search" class="w-5">
+                    <input type="text" class="w-full text-white" placeholder="Search destinations, hotels, or anything in Malang">
+                </label>
+                <button class="bg-white text-blue-500 px-8 py-4 font font-semibold rounded-full hover:bg-blue-100 cursor-pointer">Search</button>
+            </div>
+        </section>
+        <section class="py-20">
+            <h2 class="text-4xl pl-28">Top Destinations in Malang</h2>
+            <div class="flex gap-5 p-10 overflow-scroll snap-x snap-mandatory">
+                <div class="snap-center card p-5 shadow-xl rounded-3xl w-fit flex flex-col gap-8 min-w-[640px]">
+                    <img src="./assets/destination/1.png" alt="gunung-semeru" class="w-[640px]">
+                    <p class="text-xl">Nature</p>
+                    <p class="text-4xl text-blue-600">Gunung Semeru</p>
+                </div>
+                <div class="snap-center card p-5 shadow-xl rounded-3xl w-fit flex flex-col gap-8 min-w-[640px]">
+                    <img src="./assets/destination/2.png" alt="gunung-semeru" class="w-[640px]">
+                    <p class="text-xl">Nature</p>
+                    <p class="text-4xl text-blue-600">Gunung Semeru</p>
+                </div>
+                <div class="snap-center card p-5 shadow-xl rounded-3xl w-fit flex flex-col gap-8 min-w-[640px]">
+                    <img src="./assets/destination/3.png" alt="gunung-semeru" class="w-[640px] ">
+                    <p class="text-xl">Nature</p>
+                    <p class="text-4xl text-blue-600">Gunung Semeru</p>
+                </div>
+                <div class="snap-center card p-5 shadow-xl rounded-3xl w-fit flex flex-col gap-8 min-w-[640px]">
+                    <img src="./assets/destination/4.png" alt="gunung-semeru" class="w-[640px] ">
+                    <p class="text-xl">Nature</p>
+                    <p class="text-4xl text-blue-600">Gunung Semeru</p>
+                </div>
+                <div class="snap-center card p-5 shadow-xl rounded-3xl w-fit flex flex-col gap-8 min-w-[640px]">
+                    <img src="./assets/destination/5.png" alt="gunung-semeru" class="w-[640px] ">
+                    <p class="text-xl">Nature</p>
+                    <p class="text-4xl text-blue-600">Gunung Semeru</p>
+                </div>
+                <div class="snap-center card p-5 shadow-xl rounded-3xl w-fit flex flex-col gap-8 min-w-[640px]">
+                    <img src="./assets/destination/6.png" alt="gunung-semeru" class="w-[640px] ">
+                    <p class="text-xl">Nature</p>
+                    <p class="text-4xl text-blue-600">Gunung Semeru</p>
+                </div>
+            </div>
+        </section>
+        <section class="flex justify-center">
+            <div class="bg-cover w-[1310px] h-[459px] content-center px-10" style="background-image: url(./assets/plan/bg-image.jpg);">
+                <h2 class="text-5xl text-white">Plan your trip with travel expert</h2>
+                <p class="text-xl text-white py-6">Our professional advisors can craft your perfect itinerary</p>
+                <button class="bg-white text-blue-700 px-6 py-4 font font-semibold rounded-full hover:bg-blue-100 cursor-pointer">Consult now</button>
+            </div>
+        </section>
+        <section>
+            <div class="flex w-full items-center justify-center pt-9 mt-16" style="background-image: url(/assets/footer/bg.png);">
+                <div>
+                    <img src="./assets/footer/iPhone 13.svg" alt="" class="w-[349px] h-[500px] pt-9">
+                </div>
+                <div>
+                    <h2 class="text-5xl font-bold text-white py-7">Your all-in-one Malang travel app.</h2>
+                    <p class="text-xl font-normal text-white w-[854px]">Book flights, hotels, trains & rental cars anywhere in Malang in just seconds. Get real-time flight updates, travel info, exclusive deals, and 30% more Trip Coins only on the app!</p>
+
+                    <div class="flex">
+                        <div>
+                            <div class="flex items-center pt-20">
+                                <div class="px-4 py-2 bg-gray-500  rounded-full"><h2 class="text-white font-normal text-2xl">Mobile</h2></div>
+                                <h2 class="text-white font-normal text-2xl pl-7">Email</h2>
+                            </div>
+                                <div>
+                                    <p class="text-base text-white py-4">Enter your phone number to receive a text with a link to download the app.</p>
+                                    <div class="search-box flex px-3 py-2 bg-red-500 w-full bg-white/20 backdrop-blur-lg max-w-7xl rounded-2xl">
+                                        <label for="" class="flex w-full gap-2">
+                                            <input type="text" class="w-full text-white" placeholder="+91 Mobile number">
+                                        </label>
+                                        <button class="bg-white text-blue-500 px-10 py-4 font font-semibold rounded-full hover:bg-blue-100 cursor-pointer">Search</button>
+                                    </div>
+                                </div>
+                        </div>
+                        
+                        <div class="flex flex-col pl-28 pt-16">
+                            <a href="" >
+                                <img src="./assets/footer/google play.svg" alt="">
+                            </a>
+                            <a href="" >
+                                <img src="./assets/footer/app store.svg" alt="" class="pt-12">
+                            </a>         
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-black pt-16 pb-10 px-80">
+        <div>
+            <img src="./assets/main/big-logo.svg" alt="">
+        </div>
+        <div class="flex justify-end">
+            <a href="">
+                <img src="./assets/sosmt/facebook.svg" alt="">
+            </a>
+            <a href="">
+                <img src="./assets/sosmt/instagram.svg" alt="" class="px-5">
+            </a>
+            <a href="">
+                <img src="./assets/sosmt/twitter.svg" alt="">
+            </a>
+            <a href="">
+                <img src="./assets/sosmt/youtube.svg" alt="" class="pl-5">
+            </a>
+        </div>
+        <div class="pt-20">
+            <p class="text-sm text-[#BDBDBD]">&#169; 2025 Malang Trxvl.</p>
+        </div>
+    </footer>
+  </body>
+</html>
